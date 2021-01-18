@@ -1,0 +1,187 @@
+.nav-display{
+    display: flex;
+    justify-content: center
+}
+.background-img{
+    position: relative;
+    background: url(../image/header.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.primary-overlay{
+background: rgb(167,111,210,0.8);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+.navbar{
+    width: 70vw;
+    background-color: white!important;
+    border-radius: 30px;
+}
+
+.navbar .nav-item .nav-link:active{
+    color: #fee5dc;
+} 
+.navbar .nav-item{
+   padding-right: 15px;
+}
+
+.landing-page-content{
+    font-size: 33px;
+    font-weight: 300;
+    margin-top: 58px;
+}
+.landing-page-description{
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.button-discover{
+    background-color: #f7619e;
+    color: white;
+}
+
+.width-100{
+    width: 100px;
+}
+.height-100{
+    height: 100px;
+}
+
+.margin-top-neg-130{
+    margin-top: -130px;
+}
+
+.card-land-head{
+    font-size: 23px;
+}
+
+.card-land-img{
+    width: 65%;
+    height: 80%;
+}
+
+.padding-top-80{
+    padding-top: 80px;
+}
+.landing-border{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.work-process-panel{
+    position: relative;
+    background: url(../image/header.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.work-process-overlay{
+    background: rgb(167,111,210,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.padding-30{
+    padding: 30px;
+}
+
+.work-process-head{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.work-process-img{
+    width: 70px;
+    height: 70px;
+}
+.price-plan-bg{
+    background-color: #f2f2fd;
+}
+
+
+.price-amount{
+    font-size: 29px;
+    font-weight: 300;
+
+}
+.price-label{
+    font-weight: 300;
+}
+
+.price-box{
+    width: 88%;
+    margin: auto;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #8679ee;
+}
+
+.price-header{
+    font-size: 20px;
+}
+.line-height-10{
+    line-height: 2rem;
+}
+
+.purchase-button{
+    margin: auto;
+    background-color: #8679ee;
+    color: white;
+}
+
+.price-new-head{
+    font-size: 30px;
+}
+.project-details{
+    position: relative;
+    background: url(../image/header.jpg);
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.process-overlay{
+    background: rgb(167,111,210,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parent-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-120{
+    padding: 120px;
+}
+
+.font-size-project{
+    font-size: 33px;
+}
+
+.font-size-24{
+    font-size: 24px;
+}
+
+.contact{
+    margin-top: 100px !important;
+    background-color: #f2f2fd;
+}
