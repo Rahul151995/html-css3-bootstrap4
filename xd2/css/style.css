@@ -152,17 +152,53 @@ justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 400px;  
+    /* min-height: 400px;   */
 }
 .reserve .overlay{
     position: relative;;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 400px; 
+    /* min-height: 400px;  */
     background-color: rgb(0, 0, 0,0.8);
 }
+.reserve .circle{
+    display: inline;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 11px 15px;
+    background-color: #fb5849;
+}
+.reserve .circle-alter{
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 32px;
+}
 
+.reserve .btn{
+    background-color: #fb5849;
+}
+
+.circle-corner{
+    border-radius: 1.25rem;
+}
+
+.footer .circle{
+    display: inline;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 11px 17px;
+    background-color: white;
+}
+.footer .fa-instagram{
+    color: #fb5849; ;
+}
+.margin-right-10{
+    margin-right: 10px;
+}
+.footer .overlay{
+    background-color: #fb5849; 
+}
 
 @media(max-width:768px){
     .reservation-view .overlay{
