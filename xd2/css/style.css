@@ -191,13 +191,31 @@ justify-content: center;
     background-color: white;
 }
 .footer .fa-instagram{
-    color: #fb5849; ;
+    color: #fb5849;
+}
+.fa-apple{
+    color: black;
 }
 .margin-right-10{
     margin-right: 10px;
 }
 .footer .overlay{
     background-color: #fb5849; 
+}
+.klaseey .banner{
+    background-color: rgba(251, 99, 85,0.1);
+    color: #fb5849;
+}
+
+.klaseey .img-food{
+    width: 80px;
+    height: 80px;
+}
+
+.klaseey .price{
+    background-color: #fb6160;
+    padding: 8px;
+    margin: 4px;
 }
 
 @media(max-width:768px){
