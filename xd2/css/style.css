@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
 body{
     font-family: 'Baloo Da 2', cursive, serif;
 }
@@ -73,6 +75,14 @@ body{
 }
 .content-alignment .content{
     font-weight: 300;
+}
+.content-alignment .heading::before{
+    content: '';
+    width: 30px;
+    height: 0;
+    border: 1px solid #fb6160;
+    margin: 3px;
+    display:inline-block;
 }
 
 .about-us .food-item{
