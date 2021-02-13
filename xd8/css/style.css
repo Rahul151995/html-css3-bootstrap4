@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.img-container {
+    width: 50px;
+    height: 50px;
+}
+
+.bgimg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(27deg, #004e95 50%, #013a6b 50%);
+}
+
+.centerdiv {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(27deg, #013a6b 50%, #004e95 50%);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.img-container {
+    /* width: 120px;
+    height: 120px; */
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: calc((350px - 50px)/2);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    word-spacing: 10px;
+    margin: 50px 0;
+    text-shadow: -2px 2px 1px #0a84c6;
+}
+
+.inputbox {
+    width: calc(100% - 20px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    padding: 0 10px;
+}
+
+::placeholder {
+    letter-spacing: 2px;
+    color: black;
+}
+
+button {
+    width: calc(100% - 20px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: #0a84c6;
+    border: none;
+    /* padding: 0 10px; */
+}
+
+.forget {
+    width: calc(100% - 20px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: dodgerblue;
+    /* border: none; */
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.forget h4 {
+    font-size: 0.8rem;
+    line-height: 30px;
+}
